@@ -1,4 +1,4 @@
-# 💎 Diamond Price Prediction Model (SVR Regression)
+#  Diamond Price Prediction Model (SVR Regression)
 
 ## Project Overview
 
@@ -6,7 +6,7 @@ This project implements a Machine Learning solution to predict the retail price 
 
 It was developed as a personal portfolio piece to master the end-to-end data science pipeline, focusing particularly on robust **data cleaning**, **outlier management**, and advanced regression with **Support Vector Regressor (SVR)**.
 
-## 🚀 Key Learning Goals
+##  Key Learning Goals
 
 During the development of this project, I focused on achieving proficiency in the following ML skills:
 
@@ -18,7 +18,7 @@ During the development of this project, I focused on achieving proficiency in th
 
 ---
 
-## ⚙️ Technical Details and Modeling Pipeline
+##  Technical Details and Modeling Pipeline
 
 ### 1. Data Source and Initial Cleanup
 
@@ -51,7 +51,7 @@ The finalized model, along with the necessary preprocessing tools, is saved as:
 
 ---
 
-## 💻 Installation and Execution
+##  Installation and Execution
 
 To run the analysis and training script locally:
 
@@ -88,7 +88,7 @@ To run the analysis and training script locally:
 
 ---
 
-## 💡 Future Enhancements
+##  Future Enhancements
 
 Future steps to expand this project and further my ML skills include:
 
