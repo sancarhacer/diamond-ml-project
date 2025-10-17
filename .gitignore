@@ -1,0 +1,63 @@
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / Ortam dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.env/
+venv/
+env/
+/bin
+/include
+/lib
+/lib64
+pyvenv.cfg
+
+# Veri / Model dosyaları
+# Büyük veri dosyalarını (örn. CSV, Excel, HDF5) hariç tutun.
+# Sadece bu projeye özel dosya adlarını güncelleyebilirsiniz.
+# Örneğin, 'diamond_data.csv' gibi büyük bir dosyanız varsa, onu ekleyin.
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Eğitimli ML Modelleri
+# diamond_model_... dosyanız büyük olasılıkla eğitilmiş bir modeldir.
+# Bu dosyayı da hariç tutmak isteyebilirsiniz, aksi takdirde Git geçmişiniz şişer.
+# YALNIZCA KÜÇÜK VE ÖNEMSİZ MODEL DOSYALARINI (örn. 1-2 MB) tutun.
+# Büyük bir model (örn. 50 MB+) ise, onu hariç tutun.
+# Eğer bu dosyayı (diamond_model_...) dahil etmek istiyorsanız, aşağıdaki satırı silin.
+diamond_model_*
+*.model
+*.pt
+*.pth
+*.tf
+*.onnx
+/models
+/checkpoints
+
+# Jupyter Notebook çıktıları
+# Notebook'larda kaydedilen çıktıları temizlemek için (isteğe bağlı)
+.ipynb_checkpoints
+*~
+*.bak
+.idea/
+
+# VS Code dosyaları
+.vscode/
+
+# Log ve geçici dosyalar
+*.log
+/logs
+/temp
+/tmp
